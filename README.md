@@ -100,3 +100,13 @@ output_folder/
   4.jpg
   4.txt
 ```
+
+After this step, I upload my output folder to roboflow and use roboflow to create YOLO trainable dataset.
+
+## Bulid dataset for training custom YOLO using roboflow
+
+## Train custom YOLO
+
+reference: https://colab.research.google.com/github/roboflow-ai/yolov5-custom-training-tutorial/blob/main/yolov5-custom-training.ipynb#scrollTo=7iiObB2WCMh6
+
+my google colab: https://colab.research.google.com/drive/1ZhpQ1h8S3bcGtd1mqgbPcpwc_KczS7yv?usp=sharing
