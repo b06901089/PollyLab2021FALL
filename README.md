@@ -105,6 +105,8 @@ After this step, I upload my output folder to roboflow and use roboflow to creat
 
 ## Bulid dataset for training custom YOLO using roboflow
 
+Just follow the instructions on the website, it is not complicated.
+
 ## Train custom YOLO
 
 reference: https://colab.research.google.com/github/roboflow-ai/yolov5-custom-training-tutorial/blob/main/yolov5-custom-training.ipynb#scrollTo=7iiObB2WCMh6
