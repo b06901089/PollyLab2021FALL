@@ -38,7 +38,9 @@ output expamples:
 ---
 
 -g [input gray file] => the img that is processed by canny edge detection
+
 -c [input colorful file] => the original img that we can draw bounding box on
+
 -o [output file] => the img path that we will store the img that have bounding box on in
 
 command usage:
