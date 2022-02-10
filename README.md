@@ -9,6 +9,44 @@ Part 1 => Canny edge detection
 Part 2 => YOLO custom training
 
 
+## Canny edge detection
+
+### canny_edge_detection.py
+---
+
+command usage:
+```
+python canny_edge_detection.py -i [input file] -o [output file]
+```
+
+command expamples:
+```
+python canny_edge_detection.py -i ./img/BL_01.jpg -o ./img/BL_01_EDGE_01.jpg
+```
+
+output expamples:
+```
+../
+  canny_edge_detection.py
+  draw_boundingbox.py
+  img/
+    BL_01.jpg
+    BL_01_EDGE_01.jpg
+```
+
+### draw_boundingbox.py
+---
+
+command usage:
+```
+python draw_boundingbox.py -g [input gray file] -c [input colorful file] -o [output file]
+```
+
+command expamples:
+```
+python draw_boundingbox.py -g ./img/LB_04_EDGE_example.jpg -c ./img/LB_04.jpg -o ./img/LB_04_BD_example.jpg
+```
+
 ## YOLO custom training
 
 ### unsplash.py
@@ -26,6 +64,7 @@ command expamples:
 ```
 python unsplash.py -w unsplash -q temple -o . -p 15
 ```
+
 output expamples:
 ```
 ../
@@ -44,6 +83,7 @@ command expamples:
 ```
 python unsplash.py -w unsplash -q temple -o ./Temple -p 10
 ```
+
 output expamples:
 ```
 ../
@@ -102,8 +142,7 @@ input_folder/
   7.jpg
 ```
 
-The output will be like
-
+The output will be like:
 ```
 output_folder/
   2.jpg
