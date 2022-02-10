@@ -63,7 +63,7 @@ If you get error like:
 AttributeError: module 'cv2' has no attribute 'xfeatures2d'
 ```
 
-This means your openCV is possible too new, you have to downgrade the version. However, many many old versions are Yanked already. You will have to try different versions. Not Recommended though, i will recommend you find other methods to do feature detection.
+This means your openCV is possible too new, you have to downgrade the version. However, many many old versions are Yanked already. You will have to try different versions. Not Recommended though, I will recommend you find other methods to do feature detection. You can see /canny/img/feature_detector_example1 and /canny/img/feature_detector_example2 if you are curious about the results.
 
 command usage:
 ```
