@@ -53,6 +53,28 @@ command expamples:
 python draw_boundingbox.py -g ./img/LB_04_EDGE_example.jpg -c ./img/LB_04.jpg -o ./img/LB_04_BD_example.jpg
 ```
 
+### feature_detector.py
+---
+
+Use ORB methods to match feature between two pictures.
+
+If you get error like:
+```
+AttributeError: module 'cv2' has no attribute 'xfeatures2d'
+```
+
+This means your openCV is possible too new, you have to downgrade the version. However, many many old versions are Yanked already. You will have to try different versions. Not Recommended though, i will recommend you find other methods to do feature detection.
+
+command usage:
+```
+python feature_detector.py -i1 [image 1] -i2 [image 2]
+```
+
+command expamples:
+```
+python feature_detector.py -i1 ./img/LB_03 -i2 ./img/LB_01
+```
+
 ## YOLO custom training
 
 ### unsplash.py
