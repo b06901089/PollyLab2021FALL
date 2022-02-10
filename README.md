@@ -4,7 +4,14 @@
 
 Clone this repository to local.
 
-## unsplash.py
+Part 1 => Canny edge detection
+
+Part 2 => YOLO
+
+
+## YOLO
+
+### unsplash.py
 
 Crawling pictures from [Unsplash](<https://unsplash.com>)
 
@@ -51,7 +58,7 @@ output expamples:
       (14 pages of pictures)
 ```
 
-## imgScaler.py
+### imgScaler.py
 
 Resize images into certain size.
 
@@ -61,13 +68,13 @@ Size parameters, input folder path and output folder path are fixed in code.
 
 Not yet support python argument.
 
-## Label Image Yourself
+### Label Image Yourself
 
 Use image labeling tools like [LabelImg](<https://github.com/tzutalin/labelImg>).
 
 Or go to [roboflow](<https://app.roboflow.com>) to built your own object detection dataset.
 
-## findLabeledImg.py
+### findLabeledImg.py
 
 If you are not using [roboflow](<https://app.roboflow.com>), then you can use this python file to find labled images
 
@@ -103,11 +110,11 @@ output_folder/
 
 After this step, I upload my output folder to roboflow and use roboflow to create YOLO trainable dataset.
 
-## Bulid dataset for training custom YOLO using roboflow
+### Bulid dataset for training custom YOLO using roboflow
 
 Just follow the instructions on the website, it is not complicated.
 
-## Train custom YOLO
+### Train custom YOLO
 
 reference: https://colab.research.google.com/github/roboflow-ai/yolov5-custom-training-tutorial/blob/main/yolov5-custom-training.ipynb#scrollTo=7iiObB2WCMh6
 
