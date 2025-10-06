@@ -189,6 +189,11 @@ Just follow the instructions on the website, it is not complicated.
 ### Train custom YOLO
 ---
 
-reference: https://colab.research.google.com/github/roboflow-ai/yolov5-custom-training-tutorial/blob/main/yolov5-custom-training.ipynb#scrollTo=7iiObB2WCMh6
+[YOLOv5 google colab](<https://colab.research.google.com/github/roboflow-ai/yolov5-custom-training-tutorial/blob/main/yolov5-custom-training.ipynb#scrollTo=7iiObB2WCMh6>)
 
-my google colab: https://colab.research.google.com/drive/1ZhpQ1h8S3bcGtd1mqgbPcpwc_KczS7yv?usp=sharing
+[Altered google colab](<https://colab.research.google.com/drive/1ZhpQ1h8S3bcGtd1mqgbPcpwc_KczS7yv?usp=sharing>)
+
+### Reference
+---
+
+[YOLOv5](<https://github.com/ultralytics/ultralytics>)
