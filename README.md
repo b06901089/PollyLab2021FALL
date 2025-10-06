@@ -191,9 +191,11 @@ Just follow the instructions on the website, it is not complicated.
 
 [YOLOv5 google colab](<https://colab.research.google.com/github/roboflow-ai/yolov5-custom-training-tutorial/blob/main/yolov5-custom-training.ipynb#scrollTo=7iiObB2WCMh6>)
 
-[Altered google colab](<https://colab.research.google.com/drive/1ZhpQ1h8S3bcGtd1mqgbPcpwc_KczS7yv?usp=sharing>)
+[Altered version google colab](<https://colab.research.google.com/drive/1ZhpQ1h8S3bcGtd1mqgbPcpwc_KczS7yv?usp=sharing>)
 
 ### Reference
 ---
 
 [YOLOv5](<https://github.com/ultralytics/ultralytics>)
+
+[Canny Edge Detection](<https://towardsdatascience.com/canny-edge-detection-step-by-step-in-python-computer-vision-b49c3a2d8123>)
