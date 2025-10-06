@@ -4,9 +4,9 @@
 
 Clone this repository to local.
 
-Part 1 => Canny edge detection
+Part 1: Canny edge detection
 
-Part 2 => YOLO custom training
+Part 2: YOLO custom training
 
 
 ## Canny edge detection
